@@ -1,4 +1,4 @@
-.theme-dark {
+.theme-dark, .theme-light {
     --header-primary: rgb(255, 160, 160);
     --header-secondary: #a0c6ff;
     --text-normal: #fff59f;
