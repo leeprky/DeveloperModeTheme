@@ -1,0 +1,77 @@
+.theme-dark {
+    --header-primary: rgb(255, 160, 160);
+    --header-secondary: #a0c6ff;
+    --text-normal: #fff59f;
+    --text-muted: #f59cfd;
+    --text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
+    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: red;
+    --background-secondary: blue;
+    --background-secondary-alt: yellow;
+    --background-tertiary: green;
+    --background-accent: purple;
+    --background-floating: rgb(7, 255, 234);
+    --background-mobile-primary: #185ce4;
+    --background-mobile-secondary: #1652ec;
+    --background-modifier-hover: rgba(255, 21, 21, 0.16);
+    --background-modifier-active: rgba(247, 204, 12, 0.24);
+    --background-modifier-selected: rgba(255, 4, 192, 0.32);
+    --background-modifier-accent: rgba(13, 245, 233, 0.06);
+    --info-positive-text: rgb(12, 212, 247);
+    --info-warning-text: rgb(255, 175, 2);
+    --info-danger-text: rgb(241, 14, 14);
+    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
+    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --info-help-text: rgb(136, 231, 243);
+    --status-warning-text: rgb(231, 16, 16);
+    --scrollbar-thin-thumb: #15f54d;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #16f116;
+    --scrollbar-auto-track: #16f116;
+    --scrollbar-auto-scrollbar-color-thumb: #dbf116;
+    --scrollbar-auto-scrollbar-color-track: #5d87f1;
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: rgb(233, 29, 29);
+    --control-brand-foreground: hsl(227,calc(var(--saturation-factor, 1)*57.9%),77.6%);
+    --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --background-mentioned: rgb(233, 24, 129);
+    --background-mentioned-hover: rgb(34, 139, 238);
+    --background-message-hover: rgba(4, 4, 5, 0.795);
+    --channels-default: #e550eb;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: rgb(255, 136, 0);
+    --activity-card-background: #0cebeb;
+    --textbox-markdown-syntax: #53fc31;
+    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+}
+
+.theme-dark .container-3ayLPN {
+    background-color: var(--background-floating);
+}
+
+.theme-dark .option-96V44q:after {
+    background: -webkit-gradient(linear,left top,right top,from(var(--background-floating)),color-stop(80%,var(--background-floating)));
+    background: linear-gradient(90deg,var(--background-floating),var(--background-floating) 90%);}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+    background-color: var(--background-modifier-hover)
+}

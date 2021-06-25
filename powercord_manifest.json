@@ -1,0 +1,8 @@
+{
+    "name": "DeveloperModeTheme",
+    "description": "BrightColoursForTheming",
+    "version": "1.0.0",
+    "author": "Leeprky#2063",
+    "license": "MIT",
+    "theme": "DevModeTheme.theme.css"
+}
